@@ -13,6 +13,6 @@ We want to see your amazing UI development skills in action!  Please take 2 hour
 * Get the Rails app running on your computer and work your magic to bring our Sketch file to life! SCSS and Coffeescript files are included by default, but you may change those to CSS and Javascript files if you wish.
 
 ### When you're done
-Please email us a zip file containing all the folders in your Github project.  Or, if you don’t mind it being public, you can fork it to your own repo and email us the link.
+Please email us a zip file containing all the folders in your Github project. You can also fork the project and push it to your own public repo, if you don't mind it being publicly viewable.
 
 #### We can’t wait to see your work!
