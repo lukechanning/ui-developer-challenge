@@ -4,7 +4,7 @@ We want to see your amazing UI development skills in action!  Please take 2 hour
 
 ### Steps to get going
 
-* Check out the included UI design (Sketch or PDF formats are included) that we’d like you to implement. There is a free 30-day trial for [Sketch](http://bohemiancoding.com/sketch/) if you do not have it already. A pdf is also attached, in case you cannot use Sketch.
+* Check out the included UI design (Sketch or PDF formats are included) that we’d like you to implement. There is a free 30-day trial for [Sketch](http://bohemiancoding.com/sketch/) if you do not have it already.
 
 * Use rbenv, rvm or similar ruby version manager to install Ruby 2.2.2
 
