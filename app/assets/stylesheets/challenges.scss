@@ -1,3 +1,29 @@
 // Place all the styles related to the challenges controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*A. Typesets
+---------------------- */
+	//$fontFamily: Helvetica-Light;
+
+/*B. Colors
+---------------------- */
+	$offWhite: #F1F1F1;
+	$transparentGreen: rgba(40,69,96,0.50);
+	$sendgridBlue: #1A82E2;
+	$darkerBlue: #294661;
+	$lightBlue: #294762;
+
+/*C. Main Body Styling
+---------------------------- */
+
+body { background-color: $offWhite; }
+
+.wrap {
+	display: block;
+	margin: 5em auto;
+	width: 100%;
+	max-width: 1140px;
+	text-align: center;
+}
+
