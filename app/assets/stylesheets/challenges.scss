@@ -2,17 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-/*A. Typesets
----------------------- */
-	//$fontFamily: Helvetica-Light;
-
-/*B. Colors
+/*A. Colors
 ---------------------- */
 	$offWhite: #F1F1F1;
 	$transparentGreen: rgba(40,69,96,0.50);
 	$sendgridBlue: #1A82E2;
 	$darkerBlue: #294661;
 	$lightBlue: #294762;
+
+/*B. Typesets
+---------------------- */
+	$fontFamily: Helvetica-Light;
+
+	h1,h2,h3,h4,h5,h6,p,a {
+		font-family: $font-family;
+	}
+
+	h2 {
+		font-size: 3em;
+		color: $darkerBlue;
+		line-height: 4em;
+	}
 
 /*C. Main Body Styling
 ---------------------------- */
