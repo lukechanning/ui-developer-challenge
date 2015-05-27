@@ -9,17 +9,20 @@
 	$sendgridBlue: #1A82E2;
 	$darkerBlue: #294661;
 	$lightBlue: #294762;
+	$green: #18C96E;
+	$slate: #555;
+	$gray: rgba(40,70,97,0.30);
 
 /*B. Typesets
 ---------------------- */
-	$fontFamily: Helvetica-Light;
+	$fontFamily: "Helvetica-Light";
 
 	h1,h2,h3,h4,h5,h6,p,a {
-		font-family: $font-family;
+		font-family: $fontFamily;
 	}
 
 	h2 {
-		font-size: 3em;
+		font-size: 2.5em;
 		color: $darkerBlue;
 		line-height: 4em;
 	}
@@ -27,13 +30,78 @@
 /*C. Main Body Styling
 ---------------------------- */
 
-body { background-color: $offWhite; }
+	//Essentials
 
-.wrap {
-	display: block;
-	margin: 5em auto;
-	width: 100%;
-	max-width: 1140px;
-	text-align: center;
-}
+	body { background-color: $offWhite; }
+
+	.wrap {
+		display: block;
+		margin: 1em auto;
+		width: 100%;
+		text-align: left;
+		max-width: 1140px;
+		text-align: center;
+	}
+
+	//Top Block
+
+	.top {
+		margin-top: 2em;
+		.logo-block, .logo-text {
+			float: left;
+		}
+	}
+
+	//Bottom Block
+
+	.bottom {
+
+		.btn {
+			color: #FFFFFF;
+			text-transform: none;
+			font-size: 14px;
+			line-height: 4em;
+			box-shadow: none;	
+			float: left;
+			&:hover {
+				box-shadow: none;
+			}
+			&:first-of-type{
+				margin-right: 1.3em;
+			}
+		}
+
+		.submit {
+			background-color: $green;
+			&:hover {
+				background-color: $slate;
+			}
+		}
+
+		.review {
+			background-color: $offWhite;
+			color: $slate;
+			border: 1px solid $gray;
+			border-radius: 1px;
+			&:hover {
+				background-color: $gray;
+				color: $offWhite;
+			}
+		}			
+
+	}
+
+/*D. Responsive
+---------------------------- */
+
+	@media screen and (max-width: 750px) {
+		.btn {
+			width: 95%;
+			margin: 1em auto;
+		}
+		.logo-text {
+			text-align: left;
+			h2 {font-size: 2.9em;}
+		}
+	}
 
