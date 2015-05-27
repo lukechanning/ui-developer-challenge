@@ -9,6 +9,7 @@
 	$sendgridBlue: #1A82E2;
 	$darkerBlue: #294661;
 	$lightBlue: #294762;
+	$white: #FFFFFF;
 	$green: #18C96E;
 	$slate: #555;
 	$gray: rgba(40,70,97,0.30);
@@ -57,22 +58,17 @@
 	.bottom {
 
 		.btn {
-			color: #FFFFFF;
+			color: $white;
 			text-transform: none;
 			font-size: 14px;
 			line-height: 4em;
-			box-shadow: none;	
+			box-shadow: none !important;	
 			float: left;
-			&:hover {
-				box-shadow: none;
-			}
-			&:first-of-type{
-				margin-right: 1.3em;
-			}
 		}
 
 		.submit {
 			background-color: $green;
+			margin-right: 1.3em;
 			&:hover {
 				background-color: $slate;
 			}
